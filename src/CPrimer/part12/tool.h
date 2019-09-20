@@ -46,4 +46,7 @@ size_t getStrListFromText(const char* text, char* pt[], size_t n);
 void copyStrArray(char str[][80], char* pt[], size_t row);
 
 size_t getWordsFromLine(const char* line, char* pt[], size_t n);
+
+void sort_int(int ar[], size_t n);
+void print_intVec(int ar[], size_t n, size_t line_num);
 #endif // !__TOOL_H__

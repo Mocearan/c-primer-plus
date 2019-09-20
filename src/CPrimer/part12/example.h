@@ -19,4 +19,10 @@ int roll_n_dice(int dice, int sides);
 void Game(int result);
 void guess_number(void);
 
+/* dyn_arr.c */	
+void dyn_arr(void);
+
+/* mem leak */
+void gobble(double ar[], int n);
+
 #endif

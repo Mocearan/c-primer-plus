@@ -58,11 +58,27 @@ void guess_driver(void)
 	guess_number();
 }
 
+void dyn_driver(void)
+{
+	dyn_arr();
+}
+
+void mem_leak_driver(void)
+{
+	double glad[2000];
+	int i;
+	for (i = 0; i < 100000000; i++)
+		gobble(glad, 2000);
+}
+
 void test() {
 	//r_driver0();
 	//r_driver1();
 	//puts("test.");
 	//manydice();
-	guess_driver();
+	//guess_driver();
+	//dyn_driver();
+	mem_leak_driver();
+
 	return;
 }

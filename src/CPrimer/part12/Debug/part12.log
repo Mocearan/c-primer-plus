@@ -1,0 +1,11 @@
+﻿  subject.c
+G:\学习\编程练习\编程语言\C\cpp\c-primer-plus\src\CPrimer\part12\subject.c(13,43): warning C4027:  未用形参表声明的函数
+G:\学习\编程练习\编程语言\C\cpp\c-primer-plus\src\CPrimer\part12\subject.c(30,43): warning C4027:  未用形参表声明的函数
+G:\学习\编程练习\编程语言\C\cpp\c-primer-plus\src\CPrimer\part12\subject.c(126,23): warning C4018:  “<”: 有符号/无符号不匹配
+G:\学习\编程练习\编程语言\C\cpp\c-primer-plus\src\CPrimer\part12\subject.c(224,25): warning C4018:  “<”: 有符号/无符号不匹配
+G:\学习\编程练习\编程语言\C\cpp\c-primer-plus\src\CPrimer\part12\subject.c(263,23): warning C4018:  “<”: 有符号/无符号不匹配
+G:\学习\编程练习\编程语言\C\cpp\c-primer-plus\src\CPrimer\part12\subject.c(261,7): warning C4101:  “ch”: 未引用的局部变量
+G:\学习\编程练习\编程语言\C\cpp\c-primer-plus\src\CPrimer\part12\subject.c(270,24): warning C4018:  “<”: 有符号/无符号不匹配
+G:\学习\编程练习\编程语言\C\cpp\c-primer-plus\src\CPrimer\part12\subject.c(281,23): warning C4018:  “<”: 有符号/无符号不匹配
+G:\学习\编程练习\编程语言\C\cpp\c-primer-plus\src\CPrimer\part12\subject.c(290,23): warning C4018:  “<”: 有符号/无符号不匹配
+  part12.vcxproj -> G:\学习\编程练习\编程语言\C\cpp\c-primer-plus\src\CPrimer\Debug\part12.exe

@@ -19,6 +19,9 @@
     <Filter Include="example">
       <UniqueIdentifier>{73a58c8c-5ecc-4031-8389-3ea83ea16b4b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{3b5aa8a5-3a1a-4b5a-b809-06fe9b54505f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -27,25 +30,49 @@
     <ClCompile Include="example.c">
       <Filter>example</Filter>
     </ClCompile>
-    <ClCompile Include="tool.c">
-      <Filter>头文件</Filter>
-    </ClCompile>
     <ClCompile Include="driver.c">
       <Filter>example</Filter>
     </ClCompile>
+    <ClCompile Include="tool.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="subjectHelper.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="subject.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="choseBash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pe12-2a.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="common.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="example.h">
       <Filter>example</Filter>
     </ClInclude>
-    <ClInclude Include="tool.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="driver.h">
       <Filter>example</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="choseBash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="subject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="subjectHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pe12-2a.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

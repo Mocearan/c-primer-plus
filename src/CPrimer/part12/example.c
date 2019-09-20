@@ -73,3 +73,44 @@ void guess_number(void) {
 			puts("输入不合法，请重新输入：");
 	}
 }
+
+void dyn_arr(void)
+{
+	double_t* ptd;
+	int max;
+	int number;
+	int i = 0;
+	
+	puts("What is the maximum number of type double entries?");
+	if (scanf("%d", &max) != 1) {
+		puts("Number not correctly entered -- bye.");
+		exit(EXIT_FAILURE);
+	}
+	ptd = (double_t*)malloc(max * sizeof(double_t));
+	if (ptd == NULL) {
+		puts("Memory allocation failed. Goodbye.");
+		exit(EXIT_FAILURE);
+	}
+	puts("Enter the values (q to quit):");
+	while (i < max and scanf("%lf", &ptd[i]) == 1)
+		++i;
+	printf("Here atr your %d entries:\n", number = i);
+	for (i = 0; i < number; i++) {
+		printf("%7.2f ", ptd[i]);
+		if (i % 7 == 6)
+			putchar('\n');
+	}
+	if (i % 7 not_eq 0)
+		putchar('\n');
+	puts("Done.");
+	
+	if (ptd)
+		free(ptd);
+
+	return;
+}
+
+void gobble(double ar[], int n)
+{ 
+	double_t* temp = (double_t*)malloc(n * sizeof(double));
+}

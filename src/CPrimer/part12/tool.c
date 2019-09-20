@@ -269,3 +269,29 @@ size_t getWordsFromLine(const char* line, char* pt[], size_t n)
 	return i;
 }
 
+void sort_int(int ar[], size_t n)
+{
+	int temp;
+	for (size_t i=0; i < n - 1; ++i)
+		for (size_t j = i + 1; j < n; ++j)
+			if (ar[i] < ar[j]) {
+				temp = ar[i];
+				ar[i] = ar[j];
+				ar[j] = temp;
+			}
+}
+
+void print_intVec(int ar[], size_t n, size_t line_num)
+{
+	for (size_t i = 0; i < n; ++i) {
+		if (i + 1 not_eq n)
+			printf("%3d,", ar[i]);
+		else
+			printf("%3d.", ar[i]);
+		if (i % line_num == (line_num -1))
+			putchar('\n');
+	}
+	putchar('\n');
+}
+
+

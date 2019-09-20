@@ -17,6 +17,12 @@ void manydice(void);
 /* guess number */
 void guess_driver(void);
 
+/* dyn_arr */
+void dyn_driver(void);
+
+/* mem leak */
+void mem_leak_driver(void);
+
 void test();
 
 #endif // !__PART12_DRIVER_H__

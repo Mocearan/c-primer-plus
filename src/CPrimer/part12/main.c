@@ -1,9 +1,9 @@
-//#include "example.h"	
-#include "driver.h"
-
+//#include "driver.h"
+#include "choseBash.h"
 
 int main() {
-	test();
+	//test();
+	bashRunv2();
 
 	printf("\n");
 	system("pause");
